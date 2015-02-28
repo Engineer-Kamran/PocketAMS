@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Parent SignUp";
+}
+<link rel="stylesheet" type="text/css" href="~/Content/Common_StyleSheet.css"/>
+<script type="text/javascript" src="~/Scripts/Jquery1.9.1.js"></script>
+<script type="text/javascript" src="~/Scripts/CommonScript.js"></script>
+<h2 class="site-title">Parent SignUp</h2>
+<form name="SignUpForm" id="SignUpForm" onsubmit="return signUpWithValuesPressed();" enctype="multipart/form-data"
+     method="post">
+    
+<div class="main" >
+    
+       <input type="text" class="textfieldclass" placeholder="Enter First Name Here" 
+           name="fname" id="fname" style="width:350px; margin-top:45px"/>
+     <input type="text" class="textfieldclass" placeholder="Enter Last Name Here" 
+           name="lname" id="lname" style="width:350px;"/>
+        <input type="password" class="textfieldclass" placeholder="Enter Password Here" 
+            name="password" id="password" style="width:350px" />
+        <input type="password" class="textfieldclass" placeholder="Re Enter Password Here" 
+             id="repeatpassword" style="width:350px" />
+     <input type="tel" class="textfieldclass" placeholder="Enter PhoneNo Here" 
+           name="phoneno" id="phno" style="width:350px;"/>
+
+    <input type="submit" id="signUp" value="signUp"  class="buttonclass" style="width:350px;"
+       />
+    </div>
+</form>

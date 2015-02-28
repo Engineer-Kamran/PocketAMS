@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="~/Content/Common_StyleSheet.css"/>
+     <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
+     <script type="text/javascript" src="~/Scripts/Jquery1.9.1.js"></script>
+    <script type="text/javascript" src="~/Scripts/CommonScript.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+ <h2 class="site-title">Parent Dashboard</h2>
+<div class="main">
+ <input type="button" id="checkattendance" value="Check Attendance" class ="buttonclass" style="width:350px;margin-top:115px"
+        onclick="checkattendancePressed()" />
+    <input type="button" id="checkresults" value="Check Results" class ="buttonclass" style="width:350px"
+        onclick="checkresultsPressed()" />
+     <input type="button" id="signout" value="Sign Out" class ="buttonclass" style="width:350px"
+        onclick="signOutPressed()" />    
+</div>
+</body>
+</html>

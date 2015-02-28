@@ -1,0 +1,35 @@
+﻿ body {
+        background: white;
+
+    }
+.main {
+    margin-top:70px;
+    margin-bottom:30px;
+    margin-left:460px;
+    width:500px;
+    height:400px;
+    background:black;
+    border:solid;
+    border-radius:10px;
+    flex-align:center;
+
+}
+         .buttonclass {
+          margin-left:70px;
+             width:350px;
+          height:40px;
+          border-radius:10px;
+         }
+.textfieldclass {
+    margin-left: 70px;
+    height: 30px;
+    border-radius:10px;
+}
+.inSpacing {
+  margin-top:50px;
+}
+.errorMessage {
+    color:red;
+    text-align:center;
+    font:small;
+}

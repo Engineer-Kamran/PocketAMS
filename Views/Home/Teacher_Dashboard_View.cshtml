@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="~/Content/Common_StyleSheet.css"/>
+    <link rel="stylesheet" type="text/css" href="~/Content/Site.css"/>
+    <script type="text/javascript" src="~/Scripts/CommonScript.js"></script>
+    <script type="text/javascript" src="~/Scripts/Jquery1.9.1.js"></script>
+    <title></title>
+</head>
+<body>
+    <h2 class="site-title">Teacher Dashboard</h2>
+<div class="main">
+      <input type="button" id="takeattendence" value="Take Attendance" class ="buttonclass" style="width:350px;margin-top:60px"
+        onclick="takeattendancePressed()" />
+    <input type="button" id="uploadresults" value="Upload Results" class ="buttonclass" style="width:350px"
+        onclick="uploadresultsPressed()" />
+    <input type="button" id="notifications" value="Notifications" class ="buttonclass" style="width:350px"
+        onclick="notificationsPressed()" />
+    <input type="button" id="queryAns" value="Answer To Query" class ="buttonclass" style="width:350px"
+        onclick="anstoQueryPressed()" />
+     <input type="button" id="signout" value="Sign Out" class ="buttonclass" style="width:350px"
+        onclick="signOutPressed()" />
+    </div>
+</body>
+</html>
