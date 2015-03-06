@@ -44,6 +44,7 @@ function signUpWithValuesPressed() {
     $.post('/api/signup',
         $('#SignUpForm').serialize()).success(function (response) {
             if (response) {
+                alert(response);
                 /*alert("FName:" + response['FName'] +
                     '\n'+
                     "LName:" + response['LName'] +
